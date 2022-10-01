@@ -162,55 +162,25 @@ body{
   .winning-message.show {
     display: flex;
   }
-
-  /*@media screen and (min-width:480px){
-    .outer{
-        
-        display: flex;
-        align-items: center;
-        align-self: center;
-        justify-content: center;
-        justify-items: center;
-    }
-  }
-  h1{
-    display: flex;
+.outer h1{
     align-items: center;
-        align-self: center;
-        justify-content: center;
-        justify-items: center;
-  }
-
-  body{
-    
-    
-  }*/
-  .outer{
-    max-width: 768px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: flex;
+}
+.outer{
     display: flex;
     align-items: center;
     align-self: center;
     justify-content: center;
     justify-items: center;
+    justify-self: center;
     
-  }
-  body{
+}
+body{
     background-image: url("image.jpg");
     background-repeat: no-repeat;
-  }
-@media screen and (min-width:968px) {
-    .outer{
-        padding-left: 40%;
-    }
-    .outer h1{
-        padding-right: 40%;
-    }
-    
 }
-@media screen and (max-width:468px) {
-    .outer{
-        display: block
-    }
-}
+  
