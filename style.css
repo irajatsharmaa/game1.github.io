@@ -156,26 +156,17 @@ body{
     display: flex;
   }
 
-  @media screen and (max-width:480px){
-    .outer{
-        
-        display: flex;
-        align-items: center;
-        align-self: center;
-        justify-content: center;
-        justify-items: center;
-    }
-  }
-  h1{
-    display: flex;
-    align-items: center;
-        align-self: center;
-        justify-content: center;
-        justify-items: center;
-  }
+
 
   body{
     background-image: url("image.jpg");
     background-repeat: no-repeat;
     
+  }
+  .outer{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
   }
