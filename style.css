@@ -196,7 +196,10 @@ body{
     justify-items: center;
     
   }
-  
+  body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+  }
 @media screen and (min-width:968px) {
     .outer{
         padding-left: 40%;
@@ -204,13 +207,10 @@ body{
     .outer h1{
         padding-right: 40%;
     }
-    body{
-        background-image: url("image.jpg");
-        background-repeat: no-repeat;
-      }
+    
 }
 @media screen and (max-width:468px) {
     .outer{
-        display: flex;
+        display: block
     }
 }
