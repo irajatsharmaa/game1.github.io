@@ -162,25 +162,20 @@ body{
   .winning-message.show {
     display: flex;
   }
-.outer h1{
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    display: flex;
-}
-.outer{
-    display: flex;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    
-}
+
 body{
     background-image: url("image.jpg");
     background-repeat: no-repeat;
 }
   
+.container{
+    max-width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    justify-items: center;
+    max-width: 768px;
+}
