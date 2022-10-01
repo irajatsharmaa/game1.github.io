@@ -1,5 +1,11 @@
+
 *,*::after,*::before{
     box-sizing: border-box;
+
+}
+*{
+    padding: 0;
+    margin: 0;
 }
 :root{
     --cell-size:100px;
@@ -7,6 +13,7 @@
 }
 body{
     margin: 0;
+    padding: 0;
 }
 .board{
     width: 100vh;
@@ -156,7 +163,7 @@ body{
     display: flex;
   }
 
-  @media screen and (min-width:480px){
+  /*@media screen and (min-width:480px){
     .outer{
         
         display: flex;
@@ -175,7 +182,29 @@ body{
   }
 
   body{
-    background-image: url("image.jpg");
-    background-repeat: no-repeat;
+    
+    
+  }*/
+  .outer{
+    max-width: 768px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
     
   }
+  body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+  }
+@media screen and (min-width:968px) {
+    .outer{
+        padding-left: 40%;
+    }
+    .outer h1{
+        padding-right: 40%;
+    }
+}
