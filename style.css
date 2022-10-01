@@ -169,7 +169,7 @@ body{
 }
   
 .container{
-    max-width: 768px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,5 +177,5 @@ body{
     justify-self: center;
     align-content: center;
     justify-items: center;
-    max-width: 768px;
+    
 }
