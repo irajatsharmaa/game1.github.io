@@ -156,7 +156,7 @@ body{
     display: flex;
   }
 
-  @media screen and (min-width:760px){
+  @media screen and (max-width:480px){
     .outer{
         
         display: flex;
@@ -176,4 +176,6 @@ body{
 
   body{
     background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    
   }
